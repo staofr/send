@@ -175,7 +175,7 @@ const conf = convict({
   },
   custom_description: {
     format: String,
-    default: 'Encrypt and send files with a link that automatically expires to ensure your important documents don’t stay online forever.',
+    default: 'ENCRYPT AND SEND',
     env: 'CUSTOM_DESCRIPTION'
   },
   detect_base_url: {
@@ -240,7 +240,7 @@ const conf = convict({
   },
   footer_cli_url: {
     format: String,
-    default: 'https://github.com/timvisee/ffsend',
+    default: '',
     env: 'SEND_FOOTER_CLI_URL'
   },
   footer_dmca_url: {
@@ -250,27 +250,27 @@ const conf = convict({
   },
   footer_source_url: {
     format: String,
-    default: 'https://github.com/timvisee/send',
+    default: '',
     env: 'SEND_FOOTER_SOURCE_URL'
   },
   custom_footer_text: {
     format: String,
-    default: '',
+    default: 'Réalisé avec ♡ à Reims',
     env: 'CUSTOM_FOOTER_TEXT'
   },
   custom_footer_url: {
     format: String,
-    default: '',
+    default: 'https://stao.fr',
     env: 'CUSTOM_FOOTER_URL'
   },
   ui_color_primary: {
     format: String,
-    default: '#0a84ff',
+    default: '#174da0',
     env: 'UI_COLOR_PRIMARY'
   },
   ui_color_accent: {
     format: String,
-    default: '#003eaa',
+    default: '#f1892a',
     env: 'UI_COLOR_ACCENT'
   },
   custom_locale: {
